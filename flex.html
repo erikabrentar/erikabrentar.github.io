@@ -32,7 +32,7 @@
             <header class="pageHeaderWork">   
               
                 <figure class=imageWorkWrapper>
-                    <img class= "imageWork" src= "images/travelcreditHeaderbackground.png" alt= "Travel credit" title= "Travel credit">
+                    <img class= "imageWork" src= "images/flex.png" alt= "Travel credit" title= "Travel credit">
                 </figure>
 
                 <h2 class="workHeader">United Airlines</h2>
@@ -41,7 +41,7 @@
                 
 
                 <figure id=imageWorkWrapper>
-                    <img id= "imageWork" src= "images/travelcreditHeaderbackground.png" alt= "Travel credit" title= "Travel credit">
+                    <img id= "imageWork" src= "images/flex.png" alt= "Travel credit" title= "Travel credit">
                 </figure>
 
             </header>
@@ -50,38 +50,47 @@
             <section id="work" class="overview">
                 <h3 class= "workFont">Overview</h3>
                     <ul class="ulOverview">
-                        <li class= "workOverview"><span><strong>Project scope: </strong>4 weeks</span></li>
+                        <li class= "workOverview"><span><strong>Project scope: </strong>5 months</span></li>
                         <li class= "workOverview"><span><strong>Role: </strong>Product manager</span></li>
-                        <li class= "workOverview"><span><strong>Product type: </strong>Responsive web</span></li>
-                        <li class= "workOverview"><span><strong>Tools: </strong>Pen, Sticky notes, JIRA, Zeplin, Confluence, Slack</span></li>
+                        <li class= "workOverview"><span><strong>Product type: </strong>Responsive web (desktop, tablet, mobile)</span></li>
+                        <li class= "workOverview"><span><strong>Tools: </strong>Pen, Sticky notes, Axure, JIRA, Zeplin, Confluence, Slack</span></li>
                     </ul>
                     <p class="workParagraph">
-                        United Airlines has provided different forms of travel credit to passengers for many years in the form of Electronic Travel Certificates (ETC) or Future Flight Credits (FFC). These travel credits are to be used in the future for booking new flights with United Airlines.
+                        There are a select group of United Airlines loyalty members that receive the benefit of Flexible Premier Credit based on the credit card they hold. This flexible credit can be used to help achieve Premier status for the next year, or for a select few months at the beginning of the year members can choose to have their credit apply for current year status. Members like that this special program allows them the flexibility to choose.
                         <br>
                         <br>
-                        When COVID hit in March 2020, the travel industry was completely disrupted, and thousands of customers canceled their travel. These users received travel credit to be used in the future. The increase in travel credit was the most United had ever seen, and the current experience was not setup for this volume. The account experience did not have a way for members to view travel credits. 
+                        The loyalty stakeholders redesigned the Premier program starting in 2020 to have different qualifiers for member status, resulting in a need to redesign the flexible credit transfer experience. This flow was housed on an old codebase, so a replatform and redesign were both needed. This project was broken into two phases for flexible credit:
+                        <ul class="ulFlex">
+                            <li>Phase 1: Account for both 2019 and 2020 premier qualifiers depending if the user was transferring to past or current year. This had a 3 month scope.</li>
+                            <li>Phase 2: Sunset 2019 premier qualifiers and only account for 2020 qualifiers in the flexible credit flow. This had a 2 month scope. </li>  
+                        </ul>
                     </p>
+
             </section>
 
             <section id="work" class="challenge">
                 <h3 class= "workFont">The challenge</h3>
-                    <p class="challengeParagraph">
-                        The My Account experience quickly needed to provide an easy way for users to access all of their travel credits. 
-                        <ul class="ulWork">
-                            <li>Have access to all types of travel credits in one location.</li>
-                            <li>Provide information on what travel credits are and how to use them.</li>
-                            <li>Create direct access for customers to use their travel credit.</li>
-                            <li>Not congest the My Account landing page for users who do not have travel credit.</li>
-                        </ul>
+                <p class="challengeParagraph">
+                    Replatform and redesign the flexible credit transfer experience to account for two years of different premier qualifiers.  
+                    <ul class="ulWork">
+                        <li>Design needs to be flexible to account for both phases being released.</li>
+                        <li>Provide visibility on current flex balance and their current Premier progress. </li>
+                        <li>Incorporate informative text throughout the flow.</li>
+                        <li>Stop users from transferring more than they need.</li>
+                        <li>Have account activity synchronized to display the transfer line item when transfer is confirmed.</li>
+                    </ul>
+                </p>
+    
 
-                    </p>
             </section>
 
             <section id="work" class="whatIDid">
                 <h3 class= "workFont">What I did</h3>
                 <ul class="ulWork">
-                    <li>Analyze current experience for all kinds of travel credit including backend service functionality for each</li>
+                    <li>1:1 discussions with stakeholders to understand current flex credit experience</li>
+                    <li>Pen/paper sketching and mid-fidelity wireframing to assist the Product Designer</li>
                     <li>Requirements gathering</li>
+                    <li>Analyze backend service with JSON file examples</li>
                     <li>Story mapping</li>
                     <li>User story writing</li>
                     <li>List acceptance criteria for features</li>
@@ -92,19 +101,55 @@
                     <li>Cross-communication between digital teams</li>
                     <li>Release planning coordination</li>
                 </ul>
+
+                <p class="imageParagraph">
+                    Pen and paper sketches:
+                </p>
+
                 <figure class=imageExample>
-                    <img class= "imageExample" src= "images/travelCreditMap.png" alt= "Travel credit mapping" title= "Travel credit mapping">
+                    <img class= "imageExample" src= "images/flexsketch.png" alt= "Flex sketches" title= "Flex sketches">
                 </figure>
+
+                <p class="imageParagraph">
+                    Mid-fidelity wireframes:
+                </p>
+
+                <figure class=imageExample>
+                    <img class= "imageExample" src= "images/flexwire1.png" alt= "Flex wireframe transfer year" title= "Flex wireframe transfer year">
+                </figure>
+
+                <figure class=imageExample>
+                    <img class= "imageExample" src= "images/flexwire2.png" alt= "Flex wireframe transfer year" title= "Flex wireframe transfer year">
+                </figure>
+
+                <figure class=imageExample>
+                    <img class= "imageExample" src= "images/flexwire3.png" alt= "Flex wireframe transfer year" title= "Flex wireframe transfer year">
+                </figure>
+
+                <figure class=imageExample>
+                    <img class= "imageExample" src= "images/flexwire4.png" alt= "Flex wireframe transfer year" title= "Flex wireframe transfer year">
+                </figure>
+
             </section>
 
-            <section id="work" class="resule">
+            <section id="work" class="result">
                 <h3 class= "workFont">The result</h3>
                 <p class="resultParagraph">
-                    The final result was an experience where users could easily see their Travel Credit section at the top of the My Account landing page if they had an Electronic Travel Certificate and/or Future Flight Credit. Users were provided details on what travel credits are and what credits they currently have. We created a link for each ETC that would directly place users into the booking flow with their ETC information saved. This made the experience easier for using an ETC and motivated users to use the credit they have. 
-                        <br>
-                        <br>
-                    Future flight credit came with service limitations that did not allow for us to show the amount in the user’s My Account page. Instead, we linked users either directly to their trip details (if the user only had one FFC) or to their My Trips page (if the user had more than one FFC). In a future iteration once the FFC service has been updated, the goal would be to have those displayed on the My Account landing page as well. 
-                </p>
+                    We released phase 1 in January 2020 which allowed for users to transfer using old and new premier qualifiers depending on the year they were transferring to. The UX experience allowed for an easy transition in May 2020 for our phase 2 release where we sunset the old premier qualifier flex transfer experience. Loyalty stakeholders were excited to see the updates to the look and feel of the flex flow for customers, and digital stakeholders were happy to have the flow moved to the new React platform.
+                    <br>
+                    <br>
+                    In the second release, we also made the flow dynamic to account for future years automatically without needing to go into the codebase. 
+                    </p>
+    
+                    <p class="finalParagraph">
+                        Final flexible credit UX design by May Cheng.
+                    </p>
+
+                    <figure class=imageExample>
+                        <img class= "imageExample" src= "images/flexfinal.png" alt= "Flex wireframe transfer year" title= "Flex wireframe transfer year">
+                    </figure>
+                   
+    
             </section>
             </div>
 
