@@ -2,13 +2,279 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-    <title>UX Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "author" content = "Erika Brentar">
+    <meta name="description" content="Erika Brentar | Product managment and UX design">
+    <meta name="keywords" content="product manager portfolio, ux design portfolio, product owner, business analyst">    
+
+    <title>Erika Brentar | Product management and UX design</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script src="https://use.fontawesome.com/a93c8812a3.js"></script>
+    <link rel= "icon" href= "Favicon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
 </head>
 
-    <body>
-        <h1>Hello World test</h1>
-            <p>I'm hosted with GitHub Pages.</p>
+    <body id="top">
+        <div class= "wrapper">
+
+            <!-- <nav class= "pageNavigation">
+            
+
+                <span class="leftNav"><a href="ERIKA BRENTAR - Resume.pdf" target="_blank"  class= "resume">RESUME</a></span>
+              
+               
+                <span class="centerNav"n><a href="#top" class= "homeNav">Erika Brentar</a></span>
+              
+                <ul class="rightNav">
+                    <li class="rightNavLI"><span><a href="#contactSection" class= "contactNav">CONTACT</a></span></li>
+                    <li class="rightNavLI"><span><a href="#myWorkSection" class= "myWorkNav">MY WORK</a></span></li>
+                    <li class="rightNavLI"><span><a href="#aboutMeSection" class= "aboutMeNav">ABOUT ME</a></span></li>
+                </ul>
+            </nav> -->
+
+            <nav id = "mainMenu">
+                
+                <div class = "homeNav">
+                    <a href="#top" class= "homeNav">EB</a>
+                </div>
+
+                <span><a href="javascript:void(0);" class="menu-toggle" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a></span>
+
+                <div class = "innerMainMenu" id="innerMainMenu">   
+                    <ul id="menu">
+                        <li class="leftResume"><a href="ERIKA BRENTAR - Resume.pdf" target="_blank"  class= "resume">RESUME</a></li>
+                        <li><a href="#myWorkSection" class= "myWorkNav">MY WORK</a></li>
+                        <li><a href="#aboutMeSection" class= "aboutMeNav">ABOUT ME</a></li>
+                        <li><a href="#contactSection" class= "contactNav">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+                 
+
+            <header class="pageHeader">
+                <h1>Erika Brentar</h1>
+                    <h2>Specializing in product management and UX design</h2>
+                  
+                  
+            </header>
+
+
+
+            <section class="myWork" id="myWorkSection">
+                <h3 class="indexH3">My work</h3>
+
+                <div class="gridDisplay">
+                    <ul>
+                        <li class="box" id="box6">
+                            <a href="travel-credit.html" class="work1">
+                            <p class="textContainer">
+                                <span class="boxHeader"><strong>UNITED AIRLINES</strong> | Product manager</span>
+                                <br>
+                                <span class="boxSubheader">Creating visability for travel credits</span>
+                            </p>
+                            <img id= "boxImage" src= "images/travelcredit.png" alt= "Travel credit page screen" title= "Travel credit page screen">
+                        </a>
+                    </li>
+                        <li class="box" id="box4">
+                            <a href="work4.html" class="work1">
+                                <p class="textContainer">
+                                    <span class="boxHeader"><strong>UNITED AIRLINES</strong> | Product manager</span>
+                                    <br>
+                                    <span class="boxSubheader">Updating how users transfer flexible premier credit</span>
+                                </p>
+                                <img id= "boxImage" src= "images/flextablet.png" alt= "Flex credit page screen" title= "Flex credit page screen">
+                            </a>
+                        </li>
+                        <li class="box" id="box3">
+                            <a href="work3.html" class="work1">
+                                <p class="textContainer">
+                                    <span class="boxHeader"><strong>UNITED AIRLINES</strong> | Product manager</span>
+                                    <br>
+                                    <span class="boxSubheader">Enhancing account management experience</span>
+                                </p>
+                                <img id= "boxImage" src= "images/myAccountLanding2.png" alt= "Landing page screen" title= "Landing page screen">
+                            </a>
+                        </li>
+                        
+                        <li class="box" id="box2">
+                            <a href="work2.html" class="work1">
+                                <p class="textContainer">
+                                    <span class="boxHeader"><strong>UNITED AIRLINES</strong> | Product manager</span>
+                                    <br>
+                                    <span class="boxSubheader">Replatform/redesign the upgrade process</span>
+                                </p>
+                                <img id= "boxImage" src= "images/upgrade.png" alt= "Upgrade page screen" title= "Upgrade page screen">
+                            </a>
+                        </li>
+                        
+                        <li class="box" id="box1"> 
+                            <a href="work1.html" class="work1">
+                                <p class="textContainer">
+                                    <span class="boxHeader"><strong>UNITED AIRLINES</strong> | Product manager</span>
+                                    <br>
+                                    <span class="boxSubheader">Condensing member profile and preferences pages</span>
+                                </p>
+                                <img id= "boxImage" src= "images/profile.png" alt= "Profile page screen" title= "Profile page screen">
+                            </a>
+                        </li>
+                        <li class="box" id="box5">
+                            <a href="work5.html" class="work1">
+                                <p class="textContainer">
+                                    <span class="boxHeader"><strong>CLEANPATHS</strong> | UX/UI designer</span>
+                                    <br>
+                                    <span class="boxSubheader">[School project] Solutioning for cleaner homes</span>
+                                </p>
+                                <img id= "boxImage" src= "images/cleanpaths.png" alt= "Cleanpaths page screen" title= "Cleanpaths page screen">
+
+                            </a>
+                        </li>
+
+                        <li class="box" id="box7">
+                            <a href="work5.html" class="work1">
+                                <p class="textContainer">
+                                    <span class="boxHeader"><strong>PEOPLES GAS</strong> | UX/UI designer</span>
+                                    <br>
+                                    <span class="boxSubheader">[School project] Rearchitecting the responsive website</span>
+                                </p>
+                                <img id= "boxImage" src= "images/peoplesgas.png" alt= "Peoples Gas page screen" title= "Peoples Gas page screen">
+                            </a>
+                        </li>
+
+                        <!-- <li class="box" id="box8">
+                            <a href="work5.html" class="work1">
+                                <p class="textContainer">
+                                    <span class="boxHeader"><strong>DRIVER COPILOT</strong> | UX designer</span>
+                                    <br>
+                                    <span class="boxSubheader">[School project] Using AR and VUI to redesign driving</span>
+                                </p>
+                            </a>
+                        </li> -->
+
+                        <li class="box" id="box9">
+                            <a href="work5.html" class="work1">
+                                <p class="textContainer">
+                                    <span class="boxHeader"><strong>HEADSPACE</strong> | UX researcher</span>
+                                    <br>
+                                    <span class="boxSubheader">[School project] Usability testing for app improvements</span>
+                                </p>
+                                <img id= "boxImage" src= "images/headspace.png" alt= "Headspace page screen" title= "Headspace page screen">
+
+                            </a>
+                        </li>
+
+                        <li class="box" id="box10">
+                            <a href="work5.html" class="work1">
+                                <p class="textContainer">
+                                    <span class="boxHeader"><strong>SWITCH</strong> | UX designer & researcher</span>
+                                    <br>
+                                    <span class="boxSubheader">[School project] Creating an app to help housemates</span>
+                                </p>
+                                <img id= "boxImage" src= "images/switch.png" alt= "Switch page screen" title= "Switch page screen">
+                            </a>
+                        </li>
+
+                        <!-- <li class="box" id="box11">
+                            <a href="work5.html" class="work1">
+                                <p class="textContainer">
+                                    <span class="boxHeader"><strong>CBG</strong> | UX/UI designer & researcher</span>
+                                    <br>
+                                    <span class="boxSubheader">[School project] Chicago Botanic Garden app concept</span>
+                                </p>
+                            </a>
+                        </li> -->
+                
+        
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="aboutMe" id="aboutMeSection">
+                <!-- nav for About me should anchor to top of section -->
+                    <div class= "aboutMeLeft">
+                    <h3 class="indexH3">About me</h3>
+      
+                    <figure class= "imageCircle">
+                        <img class= "image2" src= "images/erikaImage.png" alt= "Erika Brentar" title= "Erika Brentar">
+                    </figure>
+
+                        <p class= "p1">
+                            <span class="aboutMeParagraph">Hi, I’m Erika <span class="wave">👋</span> and I’m passionate about providing users with the best product experience through data-driven findings and user-centered design. </span>
+                            <br>
+                            <br>
+                            <span class="aboutMeParagraph">I began my career in social media focusing on customer engagement - I like to say I was an internal voice of the user. </span>
+                            <span class="aboutMeParagraph">Seeing the highs and lows of the user journey firsthand provided me with great insight. </span>
+                            <span class="aboutMeParagraph">This was the background I needed to transition seamlessly over to digital product management. </span>
+                            <br>
+                            <br>
+                            <span class="aboutMeParagraph">While working in product management, my curiosity grew for UX design. </span>
+                            <span class="aboutMeParagraph">I realized the importance of incorporating both into my work. </span>
+                            <span class="aboutMeParagraph">I'm currently working toward a Master of Science in Human-Computer Interaction at DePaul University. </span>
+                            <span class="aboutMeParagraph">Since starting this program, I've seen such a positive impact on myself as a product manager. </span>
+                            <span class="aboutMeParagraph">I love the collaboration of both roles and working together to problem solve. </span>
+                            <span class="aboutMeParagraph">My knowledge in UX design has made me a better product manager, and vice versa - my background in product management has helped me grow as a UX designer. </span>
+                            <br>
+                            <br>
+                            <span class="aboutMeParagraph">When I'm not solving product puzzles, you can find me working on art projects, exploring my neighborhood on long walks, and expanding my food palate trying some new restaurants. </span>
+                        
+                        </p>
+    
+                    </div>
+                    
+                    <figure id= "imageCircle">
+                        <img id= "image2" src= "images/erikaImage.png" alt= "Erika Brentar" title= "Erika Brentar">
+                    </figure>
+                        
+                    
+                
+                </section>
+         
+
+            <section class="contact" id="contactSection">
+                <div class="contactLeft">
+                    <h3 class="indexH3">Contact</h3>
+
+                <!-- <figure class= "imageRectangle">
+                    <img class= "image3" src= "images/userFlowMapping.jpg" alt= "User flow mapping" title= "User flow mapping">
+                </figure> -->
+                    <div class="p2">
+                        <h4>Let's work together.</h4>
+                        <ul id="social">
+                          <li class="contactLi"><img class="linkedInImage" src="images/linkedin-logo.svg">  LinkedIn: <a href="https://www.linkedin.com/in/erikabrentar/" class="linkedInLink">erikabrentar</a></li>
+                          <li class="contactLi"><img class="emailImage" src="images/email.svg" >  Email: <a href="mailto:erika.brentar@gmail.com" class="mailLink">erika.brentar@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="bottom">
+                <span>©2020 | Designed and developed by Erika Brentar</span>
+            </footer>
+
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("innerMainMenu");
+              if (x.style.display == "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
+
     </body>
 </html>
