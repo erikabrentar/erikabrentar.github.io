@@ -12,7 +12,7 @@ h3, h1, .homeNav {
     font-weight: bold;
 }
 
-h2, p, footer, h4, span, .contactLi, .innerMainMenu {
+h2, p, footer, h4, span, .contactLi, .innerMainMenu, li {
         font-family: 'Open Sans', sans-serif;
         font-weight: normal;
         font-stretch: normal;
@@ -594,7 +594,19 @@ footer{
    
 }
 
+
 .ulWork li {
+    padding-bottom: 8px;
+}
+
+.ulFlex {
+    padding: 0px 30% 24px 88px ;
+    width: 100%;
+    font-size: 16px;
+   
+}
+
+.ulFlex li {
     padding-bottom: 8px;
 }
 
@@ -608,12 +620,23 @@ footer{
     font-size: 16px;
 }
 
+.imageParagraph {
+        font-size: 16px;
+        padding: 0px 30% 0px 58px ;
+    }
+
+
 .imageExample {
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 24px;
+}
+
+.finalParagraph {
+    font-size: 14px;
+    padding: 0px 30% 16px 58px ;
 }
 
 
@@ -692,9 +715,26 @@ footer{
         font-size: 16px;
         padding: 0px 15% 24px 58px ;
     }
+
+    .imageParagraph {
+        font-size: 16px;
+        padding: 0px 15% 0px 58px ;
+    }
+
+    .finalParagraph {
+        font-size: 14px;
+        padding: 0px 15% 16px 58px ;
+    }
     
     .ulWork {
         padding: 24px 15% 24px 88px ;
+        width: 100%;
+        font-size: 16px;
+       
+    }
+
+    .ulFlex {
+        padding: 0px 15% 24px 88px ;
         width: 100%;
         font-size: 16px;
        
@@ -914,8 +954,25 @@ h1, h2 {
     padding: 0px 58px 24px 58px ;
 }
 
+.imageParagraph {
+    font-size: 14px;
+    padding: 0px 58px 0px 58px ;
+}
+
+.finalParagraph {
+    font-size: 12px;
+    padding: 0px 58px 16px 58px ;
+}
+
 .ulWork {
     padding: 24px 58px 24px 88px ;
+    width: 100%;
+    font-size: 14px;
+   
+}
+
+.ulFlex {
+    padding: 0px 58 24px 88px ;
     width: 100%;
     font-size: 14px;
    
@@ -1100,8 +1157,25 @@ h1, h2 {
         padding: 0px 32px 24px 32px ;
     }
     
+    .imageParagraph {
+        font-size: 14px;
+        padding: 0px 32px 0px 32px ;
+    }
+
+    .finalParagraph {
+        font-size: 12px;
+        padding: 0px 32px 16px 32px ;
+    }
+
     .ulWork {
         padding: 24px 32px 24px 58px ;
+        width: 100%;
+        font-size: 14px;
+       
+    }
+
+    .ulFlex {
+        padding: 0px 32px 24px 58px ;
         width: 100%;
         font-size: 14px;
        
