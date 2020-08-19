@@ -1,7 +1,1120 @@
-body {
-    background-color: lightblue;
+
+html {
+    scroll-behavior: smooth;
+}
+
+header, section, footer {
+        color: #4a4a4a;
+}
+
+h3, h1, .homeNav {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h2, p, footer, h4, span, .contactLi, .innerMainMenu {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+}
+
+.innerMainMenu {
+    margin: 0 auto;
+    width: 100%;
+   
+}
+
+.innerMainMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.innerMainMenu ul li {
+    float: none;
+    display: inline-block;
+}
+
+
+.innerMainMenu ul li a {
+    color:  #4a4a4a;
+    font-size: 16px;
+    display: block;
+    padding: 8px 20px;
+}
+
+.innerMainMenu ul li a:hover {
+    color:  #4a4a4a;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.innerMainMenu ul li:nth-child(1) {
+    float: left;
+    color: white;
+}
+
+.resume {
+    background-color: rgb(149, 191, 179);
+    padding: 8px 40px !important;
+    border-radius: 10px;
+    color: white !important;
+    font-weight: 600;
+}
+
+
+/* 
+.leftResume {
+    background-color: #C86D5A;
+    padding: 8px 40px;
+    border-radius: 5px;
+} */
+
+.homeNav {
+    position: absolute;
+    left: 49%;
+    font-size: 24px;
+    color:  #4a4a4a;
+    padding-top: 1px;
+}
+
+.homeNav:hover {
+    color:  #4a4a4a;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+
+#mainMenu {
+    width: 100%;
+    position: relative;
+    position: fixed;
+    background-color: white;
+    padding: 12px 96px;
+    z-index: 9999;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+
+
+/* .pageNavigation a {
+    text-decoration: none;
+}
+
+
+.pageNavigation {
+    padding: 16px 122px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+   
+}
+
+.homeNav, .aboutMeNav, .myWorkNav, .contactNav{
+    color:  #4a4a4a;
+}
+
+.aboutMeNav, .myWorkNav, .contactNav {
+    padding: 0px 16px;
+    font-size: 16px;
+    width: 100%;
+  
+}
+
+
+.resume {
+    background-color: #C86D5A;
+    padding: 8px 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.resume:hover {
+    color: white;
+    opacity: 50%;
+}
+
+.homeNav:hover, .aboutMeNav:hover, .myWorkNav:hover, .contactNav:hover {
+    color:  #4a4a4a;
+    opacity: 50%;
+}
+
+
+.centerNav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 24px
+}
+
+li {
+    list-style-type: none;
+    float: right;
+} */
+
+
+
+.aboutMe {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(149, 191, 179, 0.45);
+        display: flex;
+        flex-flow: row wrap;
+        flex-basis: auto;
+        padding-bottom: 80px;
+  }
+
+  .myWork {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(149, 191, 179, 0.25);
+        background-size: cover;
+        display: flex;
+        flex-flow: row wrap;
+        flex-basis: auto;
+        padding-bottom: 80px;
+  }
+
+  .contact {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(149, 191, 179, 0.6);
+        display: flex;
+        flex-flow: row wrap;
+        flex-basis: auto;
+        padding: 48px 0px 120px 0px;
+       
+  }
+
+  footer {
+        text-align: center;
+        font-size: 12px;
+        padding: 260px 0px 16px 0px;
+        background-color: white;
+        
+  } 
+
+ .indexH3 {
+        font-size: 36px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        padding-left: 122px;
+        padding-right: 16px;
+        margin: 32px 0px 32px;
+        
+    }
+
+.myWork, .aboutMe {
+        padding: 48px 0px 64px 0px;
+        
+}
+
+
+h1, h2 {
+    padding-left: 122px;    
+    
 }
 
 h1 {
-    color: blue;
+    font-size: 80px;
+    margin: 0px;
+    padding-top: 279px;
 }
+
+h2 {
+    font-size: 32px;
+    margin: 0px;
+    width: 70%;
+    
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+} 
+
+.pageHeader {
+    /* background-image: url('triangles.png'); */
+    background-size: 800px;
+    height: 706px;
+    background-position-y: bottom;
+    background-position-x: right;
+    /* background-image: radial-gradient(rgba(149, 191, 179, 0.15) 20%, transparent 20%), 
+    radial-gradient( rgba(149, 191, 179, 0.15) 20%, transparent 20%);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px; */
+   background-color: rgba(149, 191, 179, 0.05);
+}
+
+
+
+/* .aboutMeContainer {
+    display: flex;
+    flex-flow: row wrap;
+    
+} */
+
+
+.p1 {
+    padding-left: 168px;
+    width: 60%;
+    font-size: 16px;
+   
+}
+
+.p2 {
+    padding-left: 168px;
+    width: 706px;
+    font-size: 16px;
+   
+}
+
+.image2 {
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-right: 98px;
+    margin-left: 24px;
+}
+
+
+
+#imageCircle {
+    display: none;
+}
+
+
+
+.image3 {
+    border-radius: 25%;
+}
+
+.aboutMeLeft, .contactLeft {
+    float: left;
+}
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+
+
+  
+.p2 li {
+    list-style: none;
+    padding: 16px 0px;
+    margin-left: -40px;
+  }
+
+.p2 li a {
+    color: #4a4a4a; 
+    font-weight: 600;
+    background-color: white;
+    padding: 8px 8px !important;
+    border-radius: 10px;
+  
+}
+
+
+.p2 li a:hover {
+    color: #4a4a4a; 
+    opacity: 50%;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+h4 {
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+.linkedInImage {
+    width: 20px;
+    height: 20px;
+  
+  }
+
+.emailImage {
+    width: 20px;
+    height: auto;
+}
+
+footer{
+    margin-top: 80px;
+}
+
+/* .gridDisplay {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex: row wrap;
+  }
+  
+.gridDisplay div {
+    flex-basis: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 16px;
+    width: 350px;
+    height: 350px;
+    font-size: 30px;
+    text-align: center;
+    flex: row wrap;
+  }
+  
+  */
+
+
+  .gridDisplay {
+    width: 100%;
+    margin: 0;
+    padding-left: 152px;
+    
+}
+
+.gridDisplay ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 0px;
+    
+}
+
+
+.box {
+    background-color: white;
+    margin: 16px;
+    width: 350px;
+    height: 375px;
+    border-radius: 5px;
+ 
+}
+
+.box:hover {
+    /* background-color: rgba(255,255,255, 0.75); */
+    transform: scale(1.025);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+
+}
+
+.gridDisplay ul li a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.gridDisplay ul li a:hover {
+    text-decoration: none;
+}
+
+.boxHeader {
+    font-size: 16px;
+}
+
+.boxSubheader {
+    font-size: 12px;
+}
+
+.textContainer {
+    padding: 16px;
+    color:  #4a4a4a;
+    
+}
+
+.textContainer:hover {
+    color:  #4a4a4a;
+}
+
+#boxImage {
+    width: 350px;
+    height: auto;
+    
+}
+
+/* .innerMobileMenu {
+    display: none;
+} */
+
+.menu-toggle {
+    display: none;
+}
+
+
+/* This is for the work pages */
+#mainMenu2 {
+    width: 100%;
+    position: relative;
+    position: fixed;
+    background-color: white;
+    height: 62px;
+    z-index: 9999;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.flex {
+    background-color: rgba(149, 191, 179, 0.25);
+}
+
+#work {
+    background-color: white;
+    margin: 24px 64px;
+    padding: 8px 0px;
+    border-radius: 5px;
+   
+   
+}
+
+#eb {
+    padding-top: 13px;
+}
+
+.workFont {
+    font-size: 28px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 16px 16px 0px 58px;
+    margin: 0px;
+    
+}
+
+.pageHeaderWork{ 
+    background-color: rgba(149, 191, 179, 0.45);
+    position: relative;
+   
+
+}
+
+.workHeader {
+    padding: 400px 0px 0px 122px;
+    width: 50%;
+    font-weight: 800;
+    margin: 0px;
+
+    
+}
+
+.workSubheader {
+        font-weight: 400;
+        padding: 0px 0px 48px 122px;
+        width: 48%;
+        margin: 0px;
+        font-size: 20px;
+        position: relative;
+}
+
+.imageWork {
+    width: 600px;
+    height: auto;
+    right: 64px;
+    bottom: 0;
+    position: absolute;
+    
+}
+
+
+
+#imageWork {
+    display: none; 
+}
+
+.backHome {
+    background-color: rgb(149, 191, 179);
+    padding: 16px 40px !important;
+    margin-left: 64px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white !important;
+    
+}
+
+.backHome:hover {
+    color: white;
+    opacity: 50%;
+    text-decoration: none;
+    
+}
+
+#bottom {
+    margin: 0px !important;
+}
+
+.backButton {
+    background-color: white;
+    padding: 48px 0px 24px 0px;
+}
+
+.ulOverview {
+    padding: 24px 24px 24px 58px ;
+    width: 100%;
+    font-size: 18px;
+   
+}
+
+.workOverview {
+    padding-bottom: 8px;
+    list-style-type: none;
+}
+
+.workParagraph {
+    font-size: 16px;
+    padding: 0px 30% 24px 58px ;
+}
+
+.ulWork {
+    padding: 24px 30% 24px 88px ;
+    width: 100%;
+    font-size: 16px;
+   
+}
+
+.ulWork li {
+    padding-bottom: 8px;
+}
+
+.challengeParagraph {
+    padding: 24px 30% 0px 58px ;
+    font-size: 16px;
+}
+
+.resultParagraph {
+    padding: 24px 30% 24px 58px ;
+    font-size: 16px;
+}
+
+.imageExample {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 24px;
+}
+
+
+@media screen and (max-width: 1186px) {
+    
+    
+    #mainMenu {
+        padding: 12px 48px;
+    }
+
+    .gridDisplay {
+        padding-left: 112px;
+    }
+
+    .p1 {
+        padding: 0px 122px;
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 11px;
+        padding: 48px 0px 16px 0px;
+    }   
+
+    #image2 {
+        border-radius: 50%;
+        width: 400px;
+        height: auto;
+        margin-top: 48px;
+    }
+
+    #imageCircle {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imageCircle {
+        display: none;
+    }
+
+    .p2 {
+        padding: 0px 122px;
+    }
+
+    .workHeader {
+        padding: 200px 0px 0px 122px;
+        width: 100%;
+        font-weight: 800;
+        margin: 0px;
+        
+    }
+    
+    .workSubheader {
+            font-weight: 400;
+            padding: 0px 0px 48px 122px;
+            width: 100%;
+            margin: 0px;
+            font-size: 20px;
+           
+    }
+    
+    .imageWork {
+        display: none;
+    }
+    
+    #imageWork {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+    }
+
+    .workParagraph {
+        font-size: 16px;
+        padding: 0px 15% 24px 58px ;
+    }
+    
+    .ulWork {
+        padding: 24px 15% 24px 88px ;
+        width: 100%;
+        font-size: 16px;
+       
+    }
+    
+    .ulWork li {
+        padding-bottom: 8px;
+    }
+    
+    .challengeParagraph {
+        padding: 24px 15% 0px 58px ;
+        font-size: 16px;
+    }
+    
+    .resultParagraph {
+        padding: 24px 15% 24px 58px ;
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+h1, h2 {
+    padding-left: 64px;
+
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  text-decoration: none;
+  color:  #4a4a4a;
+  opacity: 50%;
+
+}
+
+    .homeNav {
+        z-index: 999;
+       
+    }
+  
+    .innerMainMenu {
+        display: none;
+    }
+   
+   #menu {
+       display: flex;
+       flex-flow: row wrap;
+       background-color: white;
+       width: 100%;
+       padding-top: 24px;
+   }
+
+   #menu li {
+    flex-flow: row wrap;
+    
+   }
+
+   .resume {
+       padding: 14px 16px !important;
+       background-color: white;
+       font-weight: 800px;
+       color: rgb(149, 191, 179) !important;
+   }
+
+  
+
+    .innerMainMenu ul li a {
+        color:  #4a4a4a;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: flex
+      }
+
+      .menu-toggle {
+        display: block;
+        position: relative;
+        font-size: 28px;
+        color: #333;
+        
+      }
+
+      .menu-toggle:hover, .menu-toggle:focus {
+        color:  #4a4a4a;
+        opacity: 50%;
+        display: block;
+    }
+
+
+    #mainMenu, #mainMenu2 {
+        height: 62px;
+        
+    }
+
+    .indexH3 {
+        margin: 0px;
+        padding: 0px 64px;
+    }
+
+    .p1 {
+        padding: 0px 64px;
+        font-size: 14px
+    }
+
+    .gridDisplay {
+        padding-left: 54px;
+    }
+
+    .box {
+        width: 300px;
+        height: 325px;
+    }
+
+    .boxHeader {
+        font-size: 14px;
+    }
+    
+    .boxSubheader {
+        font-size: 11px;
+    }
+    
+    .textContainer {
+        padding: 12px;
+        color:  #4a4a4a;
+        
+    }
+
+    #boxImage {
+        width: 300px;
+        height: auto;
+        
+    }
+
+
+    .p2 {
+        padding: 0px 64px; 
+    }
+
+    .p2 li {
+        font-size: 14px;
+        padding: 8px 0px;
+        margin-top: 8px;
+    }
+
+    .linkedInImage {
+        width: 18px;
+        height: 18px;
+      
+      }
+    
+    .emailImage {
+        width: 18px;
+        height: auto;
+        padding-bottom: 4px;
+    }
+
+    h4 {
+        font-size: 18px;
+        padding-bottom: 8px
+    }
+
+    #work {
+        background-color: white;
+        margin: 16px 0px;
+        padding: 8px 0px;
+       
+    }
+
+    .workFont {
+        padding: 16px 32px 0px 64px;
+    }
+
+    .myWork, .aboutMe, .contact {
+        padding: 72px 0px 64px 0px;
+        
+}
+
+.workHeader {
+    padding: 200px 0px 0px 64px;
+    width: 100%;
+    font-weight: 800;
+    margin: 0px;
+
+    
+}
+
+.workSubheader {
+        font-weight: 400;
+        padding: 0px 0px 48px 64px;
+        width: 100%;
+        margin: 0px;
+        font-size: 20px;
+        
+       
+}
+
+
+
+.imageWork {
+    display: none;
+}
+
+#imageWork {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.ulOverview {
+    padding-left: 64px;
+}
+
+.workParagraph {
+    font-size: 14px;
+    padding: 0px 58px 24px 58px ;
+}
+
+.ulWork {
+    padding: 24px 58px 24px 88px ;
+    width: 100%;
+    font-size: 14px;
+   
+}
+
+.ulWork li {
+    padding-bottom: 8px;
+}
+
+.challengeParagraph {
+    padding: 24px 58px 0px 58px ;
+    font-size: 14px;
+}
+
+.resultParagraph {
+    padding: 24px 58px 24px 58px ;
+    font-size: 14px;
+}
+
+.ulOverview {
+    font-size: 16px;
+}
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    #menu {
+       
+        width: 50%;
+    }
+    
+    .wrapper {
+        overflow-x: hidden;
+    }
+    
+    .box {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 325px;
+    }
+
+    .boxHeader {
+        font-size: 14px;
+    }
+    
+    .boxSubheader {
+        font-size: 11px;
+    }
+    
+    .textContainer {
+        padding: 12px;
+        color:  #4a4a4a;
+        
+    }
+
+    #boxImage {
+        width: 300px;
+        height: auto;
+        
+    }
+
+    .gridDisplay {
+        padding: 0px;
+    }
+
+    #image2 {
+        border-radius: 50%;
+        width: 300px;
+        height: auto;
+        margin-top: 24px;
+        text-align: right;
+    }
+
+    .indexH3 {
+        padding: 0px 32px;
+        margin: 0px;
+    }
+
+    .p1 {
+        padding: 0px 32px;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    h1{
+        padding: 192px 0px 0px 32px;
+        font-size: 44px;
+    }
+
+   h2 {
+       font-size: 22px;
+       padding: 0px 32px;
+       margin: 0px;
+       width: 100%;
+   }
+
+   .pageHeader {
+    height: 400px;
+    }
+
+    .p2 {
+        padding-left: 32px;
+    }
+
+    .imageWork {
+        display: none;
+    }
+    
+    #imageWork {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    
+    .workHeader {
+        padding: 128px 32px 0px 32px;
+        width: 100%;
+        font-weight: 800;
+        margin: 0px;
+        font-size: 24px;
+        
+    }
+    
+    .workSubheader {
+            font-weight: 400;
+            padding: 0px 32px 40px 32px;
+            width: 100%;
+            margin: 0px;
+            font-size: 20px;
+            
+    }
+
+    .backHome {
+        background-color: rgb(149, 191, 179);
+        padding: 16px 40px !important;
+        margin-left: 32px;
+        margin-right: 32px;
+        display: block;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: white !important;
+        text-align: center; 
+        
+    }
+
+
+
+    #work {
+        background-color: white;
+        margin: 16px 0px;
+        padding: 8px 0px;
+       
+    }
+
+    .workFont {
+        padding: 0px 32px 0px 32px;
+        font-size: 20px;
+    }
+
+    .ulOverview {
+        padding-left: 32px;
+        font-size: 16px;
+    }
+
+    .workFont {
+        padding-top: 16px;
+    }
+
+    .workParagraph {
+        font-size: 14px;
+        padding: 0px 32px 24px 32px ;
+    }
+    
+    .ulWork {
+        padding: 24px 32px 24px 58px ;
+        width: 100%;
+        font-size: 14px;
+       
+    }
+    
+    .ulWork li {
+        padding-bottom: 8px;
+    }
+    
+    .challengeParagraph {
+        padding: 24px 32px 0px 32px ;
+        font-size: 14px;
+    }
+    
+    .resultParagraph {
+        padding: 24px 32px 24px 32px ;
+        font-size: 14px;
+    }
+
+}
+
