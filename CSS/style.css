@@ -996,6 +996,7 @@ h1, h2 {
     .indexH3 {
         padding: 0px 32px;
         margin: 0px;
+        font-size: 24px;
     }
 
     .p1 {
@@ -1006,14 +1007,18 @@ h1, h2 {
 
     h1{
         padding: 192px 0px 0px 32px;
-        font-size: 44px;
+        font-size: 32px;
     }
 
    h2 {
-       font-size: 22px;
+       font-size: 20px;
        padding: 0px 32px;
        margin: 0px;
        width: 100%;
+   }
+
+   h4 {
+       font-size: 16px;
    }
 
    .pageHeader {
