@@ -17,7 +17,7 @@ h2, p, footer, h4, span, .contactLi, .innerMainMenu, li {
         font-weight: normal;
         font-stretch: normal;
         font-style: normal;
-        line-height: normal;
+        line-height: 150%;
         letter-spacing: normal;
 }
 
@@ -796,8 +796,8 @@ h1, h2 {
    .resume {
        padding: 14px 16px !important;
        background-color: white;
-       font-weight: 800px;
-       color: rgb(149, 191, 179) !important;
+       font-weight: 400;
+       color: #4a4a4a !important;
    }
 
   
@@ -807,7 +807,7 @@ h1, h2 {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
-        display: flex
+        display: flex;
       }
 
       .menu-toggle {
