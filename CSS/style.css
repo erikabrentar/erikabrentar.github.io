@@ -264,14 +264,14 @@ html, body {
 
 
 .p1 {
-    padding-left: 168px;
+    padding-left: 122px;
     width: 60%;
     font-size: 16px;
    
 }
 
 .p2 {
-    padding-left: 168px;
+    padding-left: 122px;
     width: 706px;
     font-size: 16px;
    
@@ -391,7 +391,7 @@ footer{
   .gridDisplay {
     width: 100%;
     margin: 0;
-    padding-left: 152px;
+    padding-left: 112px;
     
 }
 
@@ -554,12 +554,32 @@ footer{
     
 }
 
+.nextProcess{
+    background-color: white;
+    padding: 16px 40px !important;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4A4A4A !important;
+    
+}
+
+.nextProcess:hover {
+    color: white;
+    opacity: 50%;
+    text-decoration: none;
+    
+}
+
+
 .backHome:hover {
     color: white;
     opacity: 50%;
     text-decoration: none;
     
 }
+
+
 
 #bottom {
     margin: 0px !important;
@@ -568,6 +588,11 @@ footer{
 .backButton {
     background-color: white;
     padding: 48px 0px 24px 0px;
+}
+
+.process {
+    /* background-color: rgba(149, 191, 179, 0.45); */
+    padding: 48px 0px 24px 122px;
 }
 
 .ulOverview {
@@ -599,6 +624,13 @@ footer{
     padding-bottom: 8px;
 }
 
+.ulProcess {
+    padding: 0px 30% 24px 58px ;
+    width: 100%;
+    font-size: 16px;
+   
+}
+
 .ulFlex {
     padding: 0px 30% 24px 88px ;
     width: 100%;
@@ -612,6 +644,11 @@ footer{
 
 .challengeParagraph {
     padding: 24px 30% 0px 58px ;
+    font-size: 16px;
+}
+
+.processParagraph {
+    padding: 24px 40% 0px 58px ;
     font-size: 16px;
 }
 
@@ -642,6 +679,10 @@ footer{
 
 @media screen and (max-width: 1186px) {
     
+    .process {
+        /* background-color: rgba(149, 191, 179, 0.45); */
+        padding: 48px 0px 24px 122px;
+    }
     
     #mainMenu {
         padding: 12px 48px;
@@ -690,6 +731,8 @@ footer{
         margin: 0px;
         
     }
+
+    
     
     .workSubheader {
             font-weight: 400;
@@ -800,7 +843,10 @@ h1, h2 {
        color: #4a4a4a !important;
    }
 
-  
+   .process {
+    /* background-color: rgba(149, 191, 179, 0.45); */
+    padding: 48px 0px 24px 64px;
+}
 
     .innerMainMenu ul li a {
         color:  #4a4a4a;
@@ -836,7 +882,7 @@ h1, h2 {
     }
 
     .p1 {
-        padding: 0px 64px;
+        padding: 10px 64px;
         font-size: 14px
     }
 
@@ -1018,6 +1064,12 @@ h1, h2 {
         height: 325px;
     }
 
+    .process {
+        /* background-color: rgba(149, 191, 179, 0.45); */
+        padding: 48px 32px 24px 32px;
+        text-align: center;
+    }
+
     .boxHeader {
         font-size: 14px;
     }
@@ -1194,6 +1246,16 @@ h1, h2 {
         padding: 24px 32px 24px 32px ;
         font-size: 14px;
     }
+    .processParagraph {
+        padding: 24px 40% 0px 32px ;
+        font-size: 14px;
+    }
+
+    .ulProcess {
+        padding: 0px 10% 24px 32px ;
+        font-size: 14px;
+    }
+    
 
 }
 
