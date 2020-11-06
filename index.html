@@ -35,18 +35,33 @@
                     <a href="#top" class= "homeNav">EB</a>
                 </div>
 
-                <span><a href="javascript:void(0);" class="menu-toggle" onclick="myFunction()">
+                <!-- <span><a href="javascript:void(0);" class="menu-toggle" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
-                </a></span>
+                </a></span> -->
+             <div class="mobile"> 
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
-                <div class = "innerMainMenu" id="innerMainMenu">   
-                    <ul id="menu">
-                        <li class="leftResume"><a href="ERIKA BRENTAR - Resume.pdf" target="_blank"  class= "resume">RESUME</a></li>
-                        <li><a href="#myWorkSection" class= "myWorkNav">MY WORK</a></li>
-                        <li><a href="#aboutMeSection" class= "aboutMeNav">ABOUT ME</a></li>
-                        <li><a href="#contactSection" class= "contactNav">CONTACT</a></li>
-                    </ul>
-                </div>
+                <!-- <div class = "innerMainMenu" id="innerMainMenu">    -->
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                        <!-- <ul id="menu"> -->
+                        <a href="ERIKA BRENTAR - Resume.pdf" class="over" target="_blank">RESUME</a>
+                        <a href="#myWorkSection" class= "over" onclick="closeNav()">MY WORK</a>
+                        <a href="#aboutMeSection" class= "over" onclick="closeNav()">ABOUT ME</a>
+                        <a href="#contactSection" class= "over" onclick="closeNav()">CONTACT</a>
+                
+                         </div>
+                     </div>
+          </div>
+
+          <div class = "innerMainMenu" id="innerMainMenu">   
+            <ul id="menu">
+                <li class="leftResume"><a href="ERIKA BRENTAR - Resume.pdf" target="_blank"  class= "resume">RESUME</a></li>
+                <li><a href="#myWorkSection" class= "myWorkNav">MY WORK</a></li>
+                <li><a href="#aboutMeSection" class= "aboutMeNav">ABOUT ME</a></li>
+                <li><a href="#contactSection" class= "contactNav">CONTACT</a></li>
+
             </nav>
 
                  
@@ -253,7 +268,7 @@
 
         </div>
 
-        <script>
+        <!-- <script>
             function myFunction() {
               var x = document.getElementById("innerMainMenu");
               if (x.style.display == "block") {
@@ -262,7 +277,17 @@
                 x.style.display = "block";
               }
             }
-        </script>
+        </script> -->
+
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
 
     </body>
 </html>
