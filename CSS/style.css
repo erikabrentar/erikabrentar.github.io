@@ -612,15 +612,27 @@ footer{
     padding: 0px 30% 24px 58px ;
 }
 
+.UXH4 {
+    padding: 24px 30% 0px 58px ;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .ulWork {
-    padding: 24px 30% 24px 88px ;
+    padding: 24px 30% 24px 58px ;
     width: 100%;
     font-size: 16px;
    
 }
 
+.ulResearch {
+    padding: 0px 30% 24px 88px ;
+    width: 100%;
+    font-size: 16px;
+}
 
-.ulWork li {
+
+.ulWork li, .ulResearch li {
     padding-bottom: 8px;
 }
 
@@ -645,6 +657,11 @@ footer{
 .challengeParagraph {
     padding: 24px 30% 0px 58px ;
     font-size: 16px;
+}
+
+.researchParagraph {
+        padding: 0px 30% 24px 58px ;
+        font-size: 16px;
 }
 
 .processParagraph {
@@ -770,6 +787,12 @@ footer{
         padding: 0px 15% 24px 58px ;
     }
 
+    .UXH4 {
+        padding: 24px 15% 0px 58px ;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
     .imageParagraph {
         font-size: 16px;
         padding: 0px 15% 0px 58px ;
@@ -781,10 +804,16 @@ footer{
     }
     
     .ulWork {
-        padding: 24px 15% 24px 88px ;
+        padding: 24px 15% 24px 58px ;
         width: 100%;
         font-size: 16px;
        
+    }
+
+    .ulResearch {
+        padding: 0px 15% 24px 88px ;
+        width: 100%;
+        font-size: 16px;
     }
 
     .ulFlex {
@@ -794,7 +823,7 @@ footer{
        
     }
     
-    .ulWork li {
+    .ulWork li, .ulResearch li {
         padding-bottom: 8px;
     }
     
@@ -802,6 +831,11 @@ footer{
         padding: 24px 15% 0px 58px ;
         font-size: 16px;
     }
+
+    .researchParagraph {
+        padding: 0px 15% 24px 58px ;
+        font-size: 16px;
+}
     
     .resultParagraph {
         padding: 24px 15% 24px 58px ;
@@ -1006,7 +1040,7 @@ h1, h2 {
     }
 
     .workFont {
-        padding: 16px 32px 0px 64px;
+        padding: 16px 32px 0px 58px;
     }
 
     .myWork, .aboutMe, .contact {
@@ -1055,6 +1089,12 @@ h1, h2 {
     padding: 0px 58px 24px 58px ;
 }
 
+.UXH4 {
+    padding: 24px 58px 0px 58px ;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .imageParagraph {
     font-size: 14px;
     padding: 0px 58px 0px 58px ;
@@ -1066,10 +1106,16 @@ h1, h2 {
 }
 
 .ulWork {
-    padding: 24px 58px 24px 88px ;
+    padding: 24px 58px 24px 58px ;
     width: 100%;
     font-size: 14px;
    
+}
+
+.ulResearch {
+    padding: 0px 58px 24px 88px ;
+    width: 100%;
+    font-size: 14px;
 }
 
 .ulFlex {
@@ -1079,12 +1125,17 @@ h1, h2 {
    
 }
 
-.ulWork li {
+.ulWork li, .ulResearch li {
     padding-bottom: 8px;
 }
 
 .challengeParagraph {
     padding: 24px 58px 0px 58px ;
+    font-size: 14px;
+}
+
+.researchParagraph {
+    padding: 0px 58px 24px 58px ;
     font-size: 14px;
 }
 
@@ -1263,6 +1314,13 @@ h1, h2 {
         font-size: 14px;
         padding: 0px 32px 24px 32px ;
     }
+
+    .UXH4 {
+        padding: 24px 32px 0px 32px ;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
     
     .imageParagraph {
         font-size: 14px;
@@ -1275,10 +1333,16 @@ h1, h2 {
     }
 
     .ulWork {
-        padding: 24px 32px 24px 58px ;
+        padding: 24px 32px 24px 32px ;
         width: 100%;
         font-size: 14px;
        
+    }
+
+    .ulResearch {
+        padding: 0px 32px 24px 58px ;
+        width: 100%;
+        font-size: 14px;
     }
 
     .ulFlex {
@@ -1288,7 +1352,7 @@ h1, h2 {
        
     }
     
-    .ulWork li {
+    .ulWork li, .ulResearch li {
         padding-bottom: 8px;
     }
     
@@ -1296,6 +1360,11 @@ h1, h2 {
         padding: 24px 32px 0px 32px ;
         font-size: 14px;
     }
+
+    .researchParagraph {
+        padding: 0px 32px 24px 32px ;
+        font-size: 14px;
+}
     
     .resultParagraph {
         padding: 24px 32px 24px 32px ;
