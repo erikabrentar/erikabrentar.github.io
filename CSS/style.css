@@ -554,6 +554,14 @@ footer{
     
 }
 
+.prototype {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(149, 191, 179);
+    
+}
+
+
 .nextProcess{
     background-color: white;
     padding: 16px 40px !important;
@@ -579,6 +587,12 @@ footer{
     
 }
 
+.prototype:hover {
+    color: rgb(149, 191, 179);
+    opacity: 50%;
+    text-decoration: none;
+    
+}
 
 
 #bottom {
@@ -1147,10 +1161,12 @@ h1, h2 {
 .ulOverview {
     font-size: 16px;
 }
+
+
+.prototype {
+    font-size: 14px;
 }
-
-
-
+}
 
 @media screen and (max-width: 600px) {
     #menu {
