@@ -274,6 +274,10 @@ html, body {
    
 }
 
+p, ul {
+    line-height: 32px;
+}
+
 .p2 {
     padding-left: 122px;
     width: 706px;
