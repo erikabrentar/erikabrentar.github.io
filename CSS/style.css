@@ -22,7 +22,7 @@ h2, p, footer, h4, span, .contactLi, .innerMainMenu, li, .overlay a {
 }
 
 h1 {
-    text-shadow: 3px 3px rgba(79, 79, 79, .25)
+    text-shadow: 3px 3px 3px  rgba(79, 79, 79, .25)
 }
 
 .innerMainMenu {
