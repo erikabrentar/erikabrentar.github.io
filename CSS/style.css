@@ -80,7 +80,7 @@ h1 {
 
 .homeNav {
     position: absolute;
-    left: 49%;
+    left: 48%;
     font-size: 24px;
     color:  #4a4a4a;
     padding-top: 1px;
@@ -501,6 +501,7 @@ footer{
 
 #eb {
     padding-top: 13px;
+    text-align: center;
 }
 
 .workFont {
@@ -731,7 +732,10 @@ footer{
 
     .mobile {
         display: block;
+       
     }
+
+    
 
     .process {
         /* background-color: rgba(149, 191, 179, 0.45); */
@@ -739,7 +743,7 @@ footer{
     }
     
     #mainMenu {
-        padding: 12px 48px;
+        padding: 8px 48px;
     }
 
     .gridDisplay {
@@ -931,7 +935,7 @@ h1, h2 {
 
     .homeNav {
         z-index: 999;
-       
+       padding-top: 4px;
     }
   
     .innerMainMenu {
@@ -976,7 +980,7 @@ h1, h2 {
         display: block;
         position: relative;
         font-size: 28px;
-        color: #333;
+        color: #4f4f4f;
       }
 
       .menu-toggle:hover, .menu-toggle:focus {
