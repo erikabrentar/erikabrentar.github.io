@@ -68,7 +68,9 @@ h1 {
     border-radius: 10px;
     color: white !important;
     font-weight: 600;
+    box-shadow: 3px 3px 5px rgba(79, 79, 79, .25);
 }
+
 
 
 /* 
@@ -347,7 +349,8 @@ p, ul {
     background-color: white;
     padding: 8px 8px !important;
     border-radius: 10px;
-  
+    box-shadow: 3px 3px 5px rgba(79, 79, 79, .25);
+       
 }
 
 
@@ -582,6 +585,7 @@ footer{
     font-size: 16px;
     font-weight: 600;
     color: #4A4A4A !important;
+    box-shadow: 3px 3px 5px rgba(79, 79, 79, .25);
     
 }
 
