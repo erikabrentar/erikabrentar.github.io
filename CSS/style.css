@@ -8,17 +8,21 @@ header, section, footer {
 }
 
 h3, h1, .homeNav {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 h2, p, footer, h4, span, .contactLi, .innerMainMenu, li, .overlay a {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
         font-stretch: normal;
         font-style: normal;
         line-height: 150%;
         letter-spacing: normal;
+}
+
+h1 {
+    text-shadow: 3px 3px rgba(79, 79, 79, .25)
 }
 
 .innerMainMenu {
