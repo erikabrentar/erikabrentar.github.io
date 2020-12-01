@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1235px" viewBox="0 0 1024 1235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Desktop</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1024" height="1235"></rect>
+        <g id="Group" transform="translate(84.000000, 94.000000)">
+            <rect id="Rectangle" fill="#95BFB3" x="0" y="0" width="111" height="78" rx="10"></rect>
+            <text id="Start" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#FFFFFF">
+                <tspan x="40.886" y="45">Start</tspan>
+            </text>
+        </g>
+        <g id="Process" transform="translate(288.000000, 94.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="42.512" y="45">Map</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-7" transform="translate(492.000000, 94.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="29.18" y="45">Location</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-9" transform="translate(493.000000, 223.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="38.348" y="45">Paths</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-8" transform="translate(696.000000, 94.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="6.224" y="45">Point of interest</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy" transform="translate(492.000000, 337.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="35.168" y="45">Events</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(195.000000, 132.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Arrow" transform="translate(46.500000, 0.500000) scale(1, -1) translate(-46.500000, -0.500000) ">
+                <path id="Line" d="M84.1025641,-4 L93.1025641,0.5 L84.1025641,5 L84.102,1 L-0.102564103,1 L-0.102564103,0 L84.102,0 L84.1025641,-4 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(400.000000, 133.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Arrow" transform="translate(46.500000, 0.500000) scale(1, -1) translate(-46.500000, -0.500000) ">
+                <path id="Line" d="M84.1025641,-4 L93.1025641,0.5 L84.1025641,5 L84.102,1 L-0.102564103,1 L-0.102564103,0 L84.102,0 L84.1025641,-4 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(399.000000, 133.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Arrow" transform="translate(46.500000, 0.500000) scale(1, -1) translate(-46.500000, -0.500000) ">
+                <path id="Line" d="M84.1025641,-4 L93.1025641,0.5 L84.1025641,5 L84.102,1 L-0.102564103,1 L-0.102564103,0 L84.102,0 L84.1025641,-4 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(400.000000, 376.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Arrow" transform="translate(46.500000, 0.500000) scale(1, -1) translate(-46.500000, -0.500000) ">
+                <path id="Line" d="M84.1025641,-4 L93.1025641,0.5 L84.1025641,5 L84.102,1 L-0.102564103,1 L-0.102564103,0 L84.102,0 L84.1025641,-4 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(401.000000, 854.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Arrow" transform="translate(46.500000, 0.500000) scale(1, -1) translate(-46.500000, -0.500000) ">
+                <path id="Line" d="M84.1025641,-4 L93.1025641,0.5 L84.1025641,5 L84.102,1 L-0.102564103,1 L-0.102564103,0 L84.102,0 L84.1025641,-4 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(603.000000, 134.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Arrow" transform="translate(46.500000, 0.500000) scale(1, -1) translate(-46.500000, -0.500000) ">
+                <path id="Line" d="M84.1025641,-4 L93.1025641,0.5 L84.1025641,5 L84.102,1 L-0.102564103,1 L-0.102564103,0 L84.102,0 L84.1025641,-4 Z"></path>
+            </g>
+        </g>
+        <g id="Process-Copy-2" transform="translate(288.000000, 337.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="28.136" y="45">Calendar</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-3" transform="translate(493.000000, 451.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="0.41" y="45">"What's in bloom"</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-4" transform="translate(830.000000, 337.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="27.968" y="45">Favorites</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-5" transform="translate(288.000000, 580.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="30.056" y="45">Ticket(s)</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-6" transform="translate(289.000000, 698.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="35.51" y="45">Profile</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-10" transform="translate(291.000000, 816.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="22.832" y="45">QR Reader</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-12" transform="translate(493.000000, 816.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="19.232" y="45">Information</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-11" transform="translate(291.000000, 933.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="31.49" y="45">Contact</tspan>
+            </text>
+        </g>
+        <g id="Process-Copy-13" transform="translate(291.000000, 1056.000000)">
+            <rect id="Rectangle" fill-opacity="0.5" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
+            <text id="Process" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
+                <tspan x="35.42" y="45">Rating</tspan>
+            </text>
+        </g>
+        <g id="double-arrow-curve" transform="translate(332.500000, 31.000000)">
+            <path d="M138.866359,-119.590446 C138.866359,-1.22229402 138.866359,82.6870762 138.866359,132.137665 C138.866359,181.588254 154.699693,200.71959 186.366359,189.531674" id="Line-2" stroke="#4F4F4F" stroke-linecap="square" transform="translate(162.616359, 36.518758) rotate(90.000000) translate(-162.616359, -36.518758) "></path>
+            <path id="Line-2" d="M248.112903,-120.090446 L248.112903,132.137665 C248.112903,176.693403 260.924081,196.307142 286.54996,191.383918 L286.788,191.335 L285.705955,187.529345 L295.59382,189.394855 L288.168693,196.185841 L287.063,192.3 L286.730958,192.367499 C260.586872,197.390242 247.381062,177.635606 247.116946,133.496479 L247.112903,132.137665 L247.112903,-120.090446 L248.112903,-120.090446 Z" fill="#4F4F4F" fill-rule="nonzero"></path>
+        </g>
+        <g id="Group" transform="translate(365.000000, 650.500000)">
+            <g id="double-arrow-curve-copy" transform="translate(63.000000, 31.500000) scale(1, -1) rotate(90.000000) translate(-63.000000, -31.500000) ">
+                <path d="M23.1370968,-8.49213387 C23.1370968,25.6368984 23.1370968,49.8304468 23.1370968,64.0885113 C23.1370968,78.3465758 38.9704301,83.8627048 70.6370968,80.6368984" id="Line-2" stroke="#4F4F4F" stroke-linecap="square" transform="translate(46.887097, 36.518758) rotate(90.000000) translate(-46.887097, -36.518758) "></path>
+                <path id="Line-2" d="M54.9919355,-8.99213387 L54.9919355,64.0885113 C54.9919355,76.5858705 67.6502546,82.2085827 93.2670861,80.8258165 L93.478,80.813 L93.1550033,76.8410283 L102.490289,80.5963508 L93.8848595,85.8113856 L93.559,81.81 L93.3108806,81.8248871 C67.4620782,83.2171623 54.2600479,77.480668 53.9959775,64.4884974 L53.9919355,64.0885113 L53.9919355,-8.99213387 L54.9919355,-8.99213387 Z" fill="#4F4F4F" fill-rule="nonzero"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(343.500000, 172.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,72.1153846 C0.5,85.2449066 46.4223459,90.8307582 137.676079,88.3770524 L139.926,88.315 L139.804628,84.3181728 L148.937269,88.5424923 L140.078229,93.3140131 L139.956,89.314 L137.672049,89.3775712 C46.2928046,91.836297 0.431211433,86.3847002 -0.485961937,72.5417695 L-0.5,72.1153846 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(341.500000, 415.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow-Copy">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,62.5 C0.5,73.8059785 47.1569928,78.6545576 139.616028,76.5243949 L141.906,76.469 L141.802433,72.4727377 L150.916497,76.7369874 L142.036659,81.4696893 L141.932,77.469 L139.602686,77.5250233 C46.8622429,79.6637245 0.442518255,74.9479418 -0.485791616,62.8719722 L-0.5,62.5 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(604.500000, 172.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow" transform="translate(75.000000, 45.000000) scale(-1, 1) translate(-75.000000, -45.000000) ">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,72.1153846 C0.5,85.2449066 46.4223459,90.8307582 137.676079,88.3770524 L139.926,88.315 L139.804628,84.3181728 L148.937269,88.5424923 L140.078229,93.3140131 L139.956,89.314 L137.672049,89.3775712 C46.2928046,91.836297 0.431211433,86.3847002 -0.485961937,72.5417695 L-0.5,72.1153846 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(744.500000, 196.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow-Copy-3" transform="translate(101.500000, 39.500000) scale(-1, 1) rotate(90.000000) translate(-101.500000, -39.500000) ">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,63.3012821 C0.5,74.8293189 63.84943,79.7367952 189.083045,77.4652097 L192.376,77.404 L192.296846,73.4054123 L201.385316,77.7239431 L192.477409,82.4036008 L192.397,78.403 L189.052267,78.4659981 C63.477054,80.7464549 0.773125642,75.9986131 -0.480807895,63.6807255 L-0.5,63.3012821 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(547.000000, 172.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Arrow-down">
+                <path id="Line" d="M1.49014367,-0.295380039 L1.49990471,0.204524674 L2.334,42.92 L6.33320473,42.8423419 L2.00976104,51.9284761 L-2.6650801,43.0180407 L1.334,42.94 L0.500095287,0.224046755 L0.490334247,-0.275857958 L1.49014367,-0.295380039 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(547.000000, 529.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Arrow-down-Copy" transform="translate(1.000000, 143.500000) scale(-1, 1) translate(-1.000000, -143.500000) ">
+                <path id="Line" d="M0.999131813,0.705015671 L0.999999248,1.20501492 L1.485,280.91 L5.48524685,280.903971 L1.00086743,289.911764 L-3.51473961,280.919584 L0.485,280.912 L7.52442566e-07,1.20674979 L-0.000866681705,0.70675054 L0.999131813,0.705015671 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(139.500000, 170.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,169.871795 C0.5,201.560823 45.5106825,214.64846 135.751853,208.859972 L137.943,208.715 L137.654912,204.72961 L146.957022,208.566373 L138.306345,213.706003 L138.016,209.712 L135.80258,209.858773 C45.9245843,215.622362 0.423963383,202.709237 -0.486070792,170.852906 L-0.5,169.871795 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(139.500000, 334.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,233.173077 C0.5,276.87693 45.4830485,294.828498 135.765926,286.874435 L137.95,286.676 L137.55405,282.701467 L146.95587,286.286965 L138.44638,291.657121 L138.049,287.672 L135.843141,287.871484 C45.9703764,295.786326 0.424884338,278.050038 -0.486056859,234.513876 L-0.5,233.173077 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(139.500000, 454.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,233.173077 C0.5,276.87693 45.4830485,294.828498 135.765926,286.874435 L137.95,286.676 L137.55405,282.701467 L146.95587,286.286965 L138.44638,291.657121 L138.049,287.672 L135.843141,287.871484 C45.9703764,295.786326 0.424884338,278.050038 -0.486056859,234.513876 L-0.5,233.173077 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(139.500000, 564.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,233.173077 C0.5,276.87693 45.4830485,294.828498 135.765926,286.874435 L137.95,286.676 L137.55405,282.701467 L146.95587,286.286965 L138.44638,291.657121 L138.049,287.672 L135.843141,287.871484 C45.9703764,295.786326 0.424884338,278.050038 -0.486056859,234.513876 L-0.5,233.173077 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(139.500000, 682.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,233.173077 C0.5,276.87693 45.4830485,294.828498 135.765926,286.874435 L137.95,286.676 L137.55405,282.701467 L146.95587,286.286965 L138.44638,291.657121 L138.049,287.672 L135.843141,287.871484 C45.9703764,295.786326 0.424884338,278.050038 -0.486056859,234.513876 L-0.5,233.173077 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(139.500000, 804.000000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,233.173077 C0.5,276.87693 45.4830485,294.828498 135.765926,286.874435 L137.95,286.676 L137.55405,282.701467 L146.95587,286.286965 L138.44638,291.657121 L138.049,287.672 L135.843141,287.871484 C45.9703764,295.786326 0.424884338,278.050038 -0.486056859,234.513876 L-0.5,233.173077 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(706.000000, 313.500000)" fill="#4F4F4F" fill-rule="nonzero">
+            <g id="Curved-arrow-Copy-2" transform="translate(39.000000, 140.500000) rotate(270.000000) translate(-39.000000, -140.500000) ">
+                <path id="Line-2" d="M0.5,-0.5 L0.5,225.160256 C0.5,266.353334 22.8822365,283.763366 67.9195874,277.539752 L68.722,277.424 L68.0491331,273.49842 L77.6803043,276.412273 L69.5705191,282.368899 L68.891,278.411 L68.0480199,278.53147 C22.9009833,284.7653 -0.0342468441,267.346652 -0.492978457,226.420442 L-0.5,225.160256 L-0.5,-0.5 L0.5,-0.5 Z"></path>
+            </g>
+        </g>
+        <text id="Views" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="223.168" y="125">Views</tspan>
+        </text>
+        <text id="Views-Copy-2" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="223.168" y="373">Views</tspan>
+        </text>
+        <text id="Views-Copy-3" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="558.168" y="685">Views</tspan>
+        </text>
+        <text id="Views-Copy-4" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="428.168" y="848">Views</tspan>
+        </text>
+        <text id="Views-Copy" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="529.168" y="36">Views</tspan>
+        </text>
+        <text id="Views-Copy-5" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="632.168" y="128">Views</tspan>
+        </text>
+        <text id="Selects" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="424.298" y="128">Selects</tspan>
+        </text>
+        <text id="Finds" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="429.374" y="253">Finds</tspan>
+        </text>
+        <text id="Finds-Copy" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="633.374" y="253">Finds</tspan>
+        </text>
+        <text id="Saves" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="896.804" y="253">Saves</tspan>
+        </text>
+        <text id="Saves-Copy" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="727.804" y="484">Saves</tspan>
+        </text>
+        <text id="Clicks-into" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="397.77" y="484">Clicks into</tspan>
+        </text>
+        <text id="Purchases" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="202.476" y="612">Purchases</tspan>
+        </text>
+        <text id="Creates" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="211.05" y="734">Creates</tspan>
+        </text>
+        <text id="Scans" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="216.168" y="845">Scans</tspan>
+        </text>
+        <text id="Messages" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="204.162" y="961">Messages</tspan>
+        </text>
+        <text id="Comments" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="201.034" y="1082">Comments</tspan>
+        </text>
+        <text id="Reviews" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="452.028" y="685">Reviews</tspan>
+        </text>
+        <text id="Clicks-into-Copy" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+            <tspan x="414.77" y="370">Clicks into</tspan>
+        </text>
+    </g>
+</svg>
