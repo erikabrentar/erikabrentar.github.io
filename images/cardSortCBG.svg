@@ -93,9 +93,9 @@
         </g>
         <g id="Level-2-Copy-3" transform="translate(621.000000, 494.000000)">
             <rect id="Rectangle" fill-opacity="0.4" fill="#95BFB3" x="0" y="0" width="111" height="78"></rect>
-            <text id="Hours-of-operation" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#4F4F4F">
-                <tspan x="29.352" y="36">Hours of </tspan>
-                <tspan x="25.41" y="51">operation</tspan>
+            <text id="Hours-of-operation" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" fill="#4F4F4F">
+                <tspan x="29.766" y="36">Hours of </tspan>
+                <tspan x="25.872" y="51">operation</tspan>
             </text>
         </g>
         <g id="Level-2-Copy-4" transform="translate(621.000000, 600.000000)">
