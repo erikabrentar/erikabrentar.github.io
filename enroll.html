@@ -72,15 +72,27 @@
             <section id="work" class="challenge">
                 <h3 class= "workFont">Empathize and discover</h3>
                 <p class="challengeParagraph">
-                    The following were the main pain-points from both customer and stakeholder perspectives:
+                    The following were the main pain-points from both customer and stakeholder perspectives: </p>
                     <ul class="ulResearch">
                         <li>The form is too long and outdated.</li>
                          <li>Why is all this information needed to sign up?</li>
                          <li>There is an information overload that causes customers to abandon the page.</li>
                          <li>The page is not responsive for different views and is currently in our old codebase.</li>
                      </ul>
+                     <h4 class="UXH4">
+                        Analysis</h4>
+                     <p class="challengeParagraph"> The previous redesign concept had taken a stripped back approach to remove as many fields as possible as a way to shorten the user flow from start to end.
+                     While that allowed for a faster experience, there were pieces missing that would be an issue for users in the long run.
+                     I knew this from previous stakeholder interviews and my own analysis. 
+                     <br><br>
+                     For example, while middle name and suffix seem like extra fields that are unnecessary and were originally planned to be removed, a user will not earn their MileagePlus miles unless the following three items match exactly:
+                    <strong>Name on reservation</strong>, <strong>name on MileagePlus account</strong>, and <strong>name on government issued ID</strong>.
+                    <br>
+                     <p class="challengeParagraph"> Currently, there is not an easy way for customers to add or change a name after enrollment (proof of change would be needed via documentation), so I quickly added those back into my list of needed form fields so that we would not cause an increase in contact center calls. I did the same analysis for adding back the gender field as well, in addition to a handful of other fields.
+                     <br><br>
+                     Secondarily, once I reviewed and finished analyzing my list of all necessary fields, I looked at how they could be broken up into more easily digestible sections. In the previous design, the password creation was separated from the security questions. With both of those items relating to a user's security, I grouped them together into a security section at the end of the flow. I kept fields all about the user (name, date of birth, etc.) as a section at the start to ease the user into the flow. The middle section is dedicated to a user's contact information. These groupings help keep associated info together for faster cognitive processing.  
                </p>
-            
+            <br>
             </section>
 
             <!-- <section id="work" class="challenge">
@@ -102,7 +114,7 @@
                 <h3 class= "workFont">Ideate and design</h3>
                 <p class="researchParagraph">
                     <br>
-                After conducting interviews with the business analyst to confirm my understanding on user need and feedback, I came up with the designs below as the main user path. 
+                After conducting my own analysis and then doing follow up interviews with the business analyst to confirm my understanding on user need and feedback, I came up with the designs below as the main user path. 
                 Some design areas of note include:
                 <ul class="ulResearch">
                     <li><strong>Three-step form:</strong> The timeline I had did not allow for me to conduct user research on comparing a single page flow versus a multi-page flow. Instead, I spent multiple hours looking up case studies and articles from those that have already done the study with users. There was an overwhelmingly positive result shown for those who used multi-step form approaches when the form was made up of more than a handful of fields and/or more than one section of information. This approach allows for lighter initial cognitive load on the user while still providing the affordance of knowing how many steps it will take to get to completion. We also are able to more easily see where customer drop-off happens for those who do not complete the form, allowing more data for future iterations.</li>
@@ -113,6 +125,8 @@
                     <br>
                     <li><strong>Error prevention:</strong> Descriptive text helps let the customer know their information needs to match their ID exactly, and I provided additional screens to mirror all inline, page level, and service errors.</li>
                  </ul>
+                 <p class="researchParagraph">
+                I presented my background research and resulting UX designs to directors and all members of the Customer Management mission-based team, inclusive of business stakeholders and product owners, and I was met with overwhelmingly positive feedback.
                 </p>
                 <h4 class="UXH4">Hi-Fi flow</h4>
                 <figure class=imageExample>
@@ -135,7 +149,7 @@
                 <p class="researchParagraph">
                     Since going into production, the MileagePlus enrollment form has seen an 8% increase for desktop and a 10% increase for mobile in customer conversions. 
                     <br><br>
-                    Future enhancements are currently TBD - I am continuing to monitor customer drop-off to understand where more iterations may be needed. 
+                    Future enhancements are currently TBD - I am continuing to monitor customer drop-off to understand where more iterations may be needed. Also, I would like to explore cutting back on fields (as was originally planned for the redesign) once we have the backend services that can support it.
                     </p>
             </section>
 
